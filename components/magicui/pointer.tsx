@@ -86,8 +86,8 @@ export function PointerWrapper({
  * @property {MotionValue<number>} y - The y-coordinate position of the pointer
  */
 interface PointerProps {
-  x: any;
-  y: any;
+  x: MotionValue<number>;
+  y: MotionValue<number>;
 }
 
 /**
