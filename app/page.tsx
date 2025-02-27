@@ -227,9 +227,7 @@ export default function Home() {
             <Accordion type="single" collapsible>
               <AccordionItem value="item-1">
                 <AccordionTrigger>
-                  <Link href="/working" className="w-full text-left">
-                    How is Prajna different from ChatGPT?
-                  </Link>
+                  How is Prajna different from ChatGPT?
                 </AccordionTrigger>
                 <AccordionContent>
                   Unlike ChatGPT, Prajna is specifically designed for business intelligence. It can connect to your
