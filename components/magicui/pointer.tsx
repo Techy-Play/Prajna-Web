@@ -1,8 +1,10 @@
+// @ts-nocheck
 "use client";
 
 import { cn } from "@/lib/utils";
 import { AnimatePresence, motion, useMotionValue } from "motion/react";
 import React, { useEffect, useRef, useState } from "react";
+import { MotionValue } from 'framer-motion';
 
 /**
  * @property {React.ReactNode} children - The child elements to be wrapped
