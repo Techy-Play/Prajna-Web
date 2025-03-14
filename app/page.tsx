@@ -1,4 +1,5 @@
 "use client"
+import { SiteFooter } from "@/components/site-footer"
 
 import { useTheme } from "next-themes"
 import { motion } from "framer-motion"
@@ -107,7 +108,7 @@ export default function Home() {
               ask questions in plain English.
             </p>
             <div className="flex flex-col gap-4 sm:flex-row sm:justify-center">
-              <Link href="/working">
+              <Link href="/getstarted">
                 <Button size="lg" className="gap-2">
                   <Zap className="h-4 w-4" />
                   Get Started
@@ -116,7 +117,7 @@ export default function Home() {
             </div>
           </motion.div>
         </div>
-        <Particles className="absolute inset-0 z-0" quantity={800} ease={10} color={color} refresh={false} />
+        <Particles className="absolute inset-0 z-0" quantity={100} ease={10} color={color} refresh={false} />
       </section>
       {/* Features Section */}
       <section id="features" className="relative border-t bg-muted/40 py-20 px-4 sm:px-6 lg:px-8">
@@ -289,7 +290,7 @@ export default function Home() {
             <p className="mb-8 text-muted-foreground">
               Join leading companies already using Prajna to make faster, data-driven decisions
             </p>
-            <Link href="/working">
+            <Link href="/getstarted">
               <Button size="lg" className="gap-2">
                 <Zap className="h-4 w-4" />
                 Schedule a Demo
@@ -298,6 +299,8 @@ export default function Home() {
           </motion.div>
         </div>
       </section>
+      <SiteFooter />
+
     </div>
   )
 }

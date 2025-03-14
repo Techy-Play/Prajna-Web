@@ -113,7 +113,7 @@ export function SiteHeader() {
           </motion.div>
 
           <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} className="hidden md:block">
-            <Link href="/working">
+            <Link href="/getstarted">
               <Button>Request Demo</Button>
             </Link>
           </motion.div>
@@ -154,7 +154,7 @@ export function SiteHeader() {
                 ))}
                 <motion.li variants={{ closed: { opacity: 0, x: -10 }, open: { opacity: 1, x: 0 } }}>
                   <Link 
-                    href="/working"
+                    href="/getstarted"
                     className="block rounded-lg px-4 py-2 text-sm hover:bg-muted" 
                     onClick={() => setIsMenuOpen(false)}
                   >

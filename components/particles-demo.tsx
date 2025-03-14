@@ -22,7 +22,7 @@ export default function ParticlesDemo() {
           <span className="pointer-events-none z-10 whitespace-pre-wrap text-center text-8xl font-semibold leading-none">
             Particles
           </span>
-          <Particles className="absolute inset-0 z-0" quantity={100} ease={80} color={color} refresh />
+          <Particles className="absolute inset-0 z-0" quantity={10} ease={8} color={color} refresh />
         </div>
       </div>
     </div>
